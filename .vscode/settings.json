@@ -1,0 +1,7 @@
+{
+    "files.exclude": {
+        "**/*.xdmf": true,
+        "**/*.h5": true,
+        "**/*.cpython-312": true
+    }
+}
