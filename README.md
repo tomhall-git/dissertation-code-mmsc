@@ -1,6 +1,6 @@
 # Fokker–Planck Finite Element Solver
 
-This repository accompanies my MSc dissertation **“A Structure-preserving Finite Element for the FENE Dumbbell Fokker–Planck Equation.”**  
+This repository accompanies my MSc dissertation **“A Structure-Preserving Finite Element Method for the FENE Dumbbell Fokker–Planck Equation.”**  
 It contains the source code used to implement and run all numerical experiments reported in Chapter 5 of the thesis.
 
 ## Contents
