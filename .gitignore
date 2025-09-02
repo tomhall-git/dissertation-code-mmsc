@@ -1,0 +1,71 @@
+# --- Python cache & build ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# --- Virtual environments ---
+.venv/
+env/
+venv/
+.fenicsx-env/
+
+# --- Jupyter/IPython ---
+.ipynb_checkpoints/
+*.ipynb~
+
+# --- macOS Finder & system files ---
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# --- VSCode / IDE configs (keep workspace JSON if you want) ---
+.vscode/
+*.swp
+*.swo
+*.idea/
+*.iml
+
+# --- Experiment results / outputs ---
+*.png
+*.jpg
+*.jpeg
+*.pdf
+*.csv
+*.h5
+*.xdmf
+*.xdmf.*
+*.pvd
+*.vtu
+*.vtk
+*.xdmf.tmp
+*.out
+*.log
+
+# --- Mesh & gmsh intermediates ---
+*.msh
+*.geo_unrolled
+*.xdmf.h5
+*.xdmf_aux.xml
+
+# --- LaTeX build (if you compile dissertation in repo) ---
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.toc
+*.pdf
+
+# --- Checkpoint / backup files ---
+*~
+*.bak
+*.tmp

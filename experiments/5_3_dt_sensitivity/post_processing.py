@@ -59,9 +59,9 @@ plt.rcParams.update({
 
 fig, ax1 = plt.subplots(figsize=(7.5, 3.6))
 
-ln1, = ax1.plot(t, mass, linewidth=1.5, color = '#00008B', label=r"$\mathrm{mass}(\hat\psi)$")
+ln1, = ax1.plot(t, mass, linewidth=1.5, color = '#00008B', label=r"$\mathrm{mass}(\psi)$")
 ax1.set_xlabel(r"$\mathrm{time}(t)$")
-ax1.set_ylabel(r"$\mathrm{total\ mass}(\hat\psi)$")
+ax1.set_ylabel(r"$\mathrm{total\ mass}(\psi)$")
 
 ax2 = ax1.twinx()
 ln2, = ax2.plot(t, negm, "--", linewidth=0.5, color = '#8B0000', label=r"$\mathrm{neg\_mass}(\hat\psi)$")

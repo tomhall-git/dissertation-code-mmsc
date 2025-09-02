@@ -7,7 +7,7 @@ import ufl
 
 epsilon = 0.1
 final_time = 1.0
-num_steps = 1000
+num_steps = 250
 dt = final_time / num_steps
 fe_degree: int = 1
 Wi = 1.0
